@@ -1,12 +1,12 @@
 # Ignore node_modules in backend and frontend directories
-/backend/node_modules/
-/frontend/node_modules/
+backend/node_modules/
+frontend/node_modules/
 
 # Ignore lock files
-/backend/package-lock.json
-/frontend/package-lock.json
-/backend/yarn.lock
-/frontend/yarn.lock
+backend/package-lock.json
+frontend/package-lock.json
+backend/yarn.lock
+frontend/yarn.lock
 
 # Logs
 logs
@@ -24,26 +24,26 @@ bower_components/
 /.npm
 .pnpm-store/
 
-/backend/dist/
-/frontend/dist/
+backend/dist/
+frontend/dist/
 
 # Ignore environment variable files
-/backend/.env
-/frontend/.env
-/backend/.env.*
-/frontend/.env.*
+backend/.env
+frontend/.env
+backend/.env.*
+frontend/.env.*
 
 # Ignore Vite, Nuxt, and other build directories
-/backend/.cache
-/frontend/.cache
-/backend/.parcel-cache
-/frontend/.parcel-cache
-/backend/.nuxt
-/frontend/.nuxt
-/backend/.next
-/frontend/.next
-/backend/out
-/frontend/out
+backend/.cache
+frontend/.cache
+backend/.parcel-cache
+frontend/.parcel-cache
+backend/.nuxt
+frontend/.nuxt
+backend/.next
+frontend/.next
+backend/out
+frontend/out
 
 # Ignore IDE directories
 .vscode/
